@@ -17,4 +17,5 @@ merged_dict.update(dict2)
 
 # Print the merged dictionary
 print(merged_dict)
+#HTB{n0w_1m_0ff1c4lly_4_c0nfl1ct_crunch3r_y4y!_392a6d262fddc984eccb29aa00a79b8b}
 ```
