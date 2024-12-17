@@ -46,8 +46,8 @@ Case 2: flag_half1 (chẵn), flag_half2 (lẻ).
 Case 3: flag_half1 (lẻ), flag_half2 (chẵn).
 Brute Force Keys:
 
-Với timestamp chẵn: Brute force key_seed (1 đến 1000) và thử tất cả xor_key (1 đến 255).
-Với timestamp lẻ: Brute force xor_key (1 đến 255) và thử tất cả key_seed (1 đến 1000).
+Với timestamp chẵn: Brute force key_seed (1 đến 1000) và xor_key 42.
+Với timestamp lẻ: Brute force xor_key (1 đến 255) và key_seed 42.
 Kết Hợp Kết Quả:
 
 Lọc nửa đầu (flag_half1) bắt đầu bằng "HTB".
