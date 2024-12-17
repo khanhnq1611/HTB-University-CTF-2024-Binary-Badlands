@@ -1,4 +1,4 @@
-Weighted Starfield Stabilizer
+Weighted Starfield Stabilizer - Medium Level
 Welcome, Space Cowboy. The resistance has intercepted energy signals from the Frontier Starfield, but they are riddled with weighted anomalies that distort their stability. To analyze the starfield’s stability, you must calculate the maximum stability score.
 
 Each energy signal is modified by its corresponding weight, creating a new stability signal:
