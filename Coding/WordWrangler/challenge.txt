@@ -1,4 +1,4 @@
-WordWrangler
+WordWrangler - Easy Level
 Welcome, Space Cowboy. The Frontier Archives have transmitted an ancient text encrypted with layers of forgotten languages. The resistance needs your help to decode the most frequently used word in this transmission.
 
 Your mission is to count the frequency of each word in the given text, ignoring case and punctuation, and identify the single most common word. If there are multiple words with the same highest frequency, return any one of them.
