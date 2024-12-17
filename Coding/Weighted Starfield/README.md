@@ -4,6 +4,9 @@ signals = input()  # First input array as a string
 weights = input()  # Second input array as a string
 
 # Write your solution below and make sure to print the maximum stability score
+# The way to solve problem is kind of easy: just find the subarray with the maximun product.
+# So, It is a easy problem about dynamic programming type. All the things we need to do is find the
+# maximum product at the index i from the first element.
 
 # Remove brackets and split the strings into integer lists
 signals = list(map(int, signals.strip("[]").split(',')))
@@ -19,7 +22,7 @@ min_product = modified_signals[0]  # Local min
 
 for i in range(1, len(modified_signals)):
     if modified_signals[i] < 0:
-        max_product, min_product = min_product, max_product  # Swap when encountering a negative number
+        max_product, min_product = min_product, max_product  # Swap when encountering a negative number because negative num multiply with min_product may bigger than that with max_product
 
     max_product = max(modified_signals[i], max_product * modified_signals[i])
     min_product = min(modified_signals[i], min_product * modified_signals[i])
