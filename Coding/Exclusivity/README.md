@@ -1,3 +1,10 @@
+# Sollution
+Use map to count the element that occurs in the array before.
+if the number equal to 1 mean that if it is the first time this element occur
+in the array, it will be print out to the screen.
+
+
+
 ``` C++
 #include <bits/stdc++.h>
 using namespace std;
