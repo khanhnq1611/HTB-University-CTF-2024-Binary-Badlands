@@ -1,4 +1,4 @@
-Exclusivity: Frontier Cluster 
+Exclusivity: Frontier Cluster - Very Easy Level
 Welcome back, Space Cowboy. The Minutemen have intercepted a cryptic signal 
 from the Frontier Board—a corrupted data stream filled with duplicate entries. 
 Hidden within this mess are critical coordinates that could lead us closer to the legendary Starry Spur.
