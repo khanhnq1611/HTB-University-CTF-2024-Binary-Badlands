@@ -1,3 +1,4 @@
+```python
 # Input two arrays as strings
 signals = input()  # First input array as a string
 weights = input()  # Second input array as a string
@@ -28,3 +29,4 @@ for i in range(1, len(modified_signals)):
 # Output the result
 print(result)
 # FLag HTB{m1ssi0n_c0mpl3t3d_m4x1mum_5t4b1l1ty_4ch13v3d!_01124437b14528e3159420a6721aa524}
+```
