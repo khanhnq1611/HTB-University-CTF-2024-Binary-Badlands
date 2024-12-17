@@ -2,10 +2,7 @@
 
 
 ```C++
-#include <iostream>
-#include <string>
-#include <vector>
-#include <sstream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
