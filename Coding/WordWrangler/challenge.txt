@@ -1,0 +1,15 @@
+WordWrangler
+Welcome, Space Cowboy. The Frontier Archives have transmitted an ancient text encrypted with layers of forgotten languages. The resistance needs your help to decode the most frequently used word in this transmission.
+
+Your mission is to count the frequency of each word in the given text, ignoring case and punctuation, and identify the single most common word. If there are multiple words with the same highest frequency, return any one of them.
+
+Answer Format:
+Return the most common word as a single string. Do not include its count in the output.
+
+Report the result back to Lena Starling. The resistance is counting on your precision and speed!
+
+Example
+Input:
+"The quick brown fox jumps over the lazy dog. The dog barks at the fox!"
+Output:
+the
