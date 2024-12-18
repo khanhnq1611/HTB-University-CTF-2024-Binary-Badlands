@@ -1,3 +1,11 @@
+In this exercise, we need to find the word with the most frequency.
+
+Use another dictionary to store the frequency of each word.
+
+Then, find the key with maximum value.
+
+
+
 ```python
 # Input the text as a single string
 input_text = input()  # Example: "The quick brown fox jumps over the lazy dog."
