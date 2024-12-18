@@ -1,12 +1,28 @@
+The way to solve problem is kind of easy: just find the subarray with the maximun product.
+
+So, It is a easy problem about dynamic programming type. All the things we need to do is find the
+
+maximum product at the index i (local max) and  global max = max( local max, global max)
+
+We also need a local min too, because in the case the element at index i is negative, we need to swap local 
+
+max and local min. 
+
+example a[i] = -10
+
+local min = -3
+local max = 5
+
+so we need to swap 2 values and we will get local max is 30, if not swap, local max is become -50, bad idea!
+
+
+
 ```python
 # Input two arrays as strings
 signals = input()  # First input array as a string
 weights = input()  # Second input array as a string
 
 # Write your solution below and make sure to print the maximum stability score
-# The way to solve problem is kind of easy: just find the subarray with the maximun product.
-# So, It is a easy problem about dynamic programming type. All the things we need to do is find the
-# maximum product at the index i from the first element.
 
 # Remove brackets and split the strings into integer lists
 signals = list(map(int, signals.strip("[]").split(',')))
@@ -22,7 +38,8 @@ min_product = modified_signals[0]  # Local min
 
 for i in range(1, len(modified_signals)):
     if modified_signals[i] < 0:
-        max_product, min_product = min_product, max_product  # Swap when encountering a negative number because negative num multiply with min_product may bigger than that with max_product
+        max_product, min_product = min_product, max_product
+        # Swap when encountering a negative number because negative num multiply with min_product may bigger than that with max_product
 
     max_product = max(modified_signals[i], max_product * modified_signals[i])
     min_product = min(modified_signals[i], min_product * modified_signals[i])
