@@ -1,4 +1,18 @@
-it is just a basic dynamic programming problem. 
+it is just a basic dynamic programming problem about coin changing. 
+n : target money
+coin : coin 
+dp[n] = dp[n] + dp[n-coin]
+Input [2, 5, 3, 6] 10
+DP Table Update:
+Initial: dp = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+After processing crystal 2:
+dp = [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+After processing crystal 5:
+dp = [1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 2]
+After processing crystal 3:
+dp = [1, 0, 1, 1, 1, 2, 2, 2, 3, 3, 4]
+After processing crystal 6:
+dp = [1, 0, 1, 1, 1, 2, 3, 2, 4, 4, 5]
 
 
 ```C++
